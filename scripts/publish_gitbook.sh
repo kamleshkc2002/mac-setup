@@ -1,6 +1,6 @@
 #!/bin/bash -e
 
-readonly commands=(git gitbook cp)
+readonly commands=(git docsify cp)
 
 # Make sure we don't push unrelated changes
 if [[ $(git status -s | wc -l) -gt 0 ]]; then
@@ -24,18 +24,18 @@ git push origin main
 echo "👥 Completed updating list of contributors"
 
 echo "📖 Building the guide using gitbook.."
-gitbook install
-gitbook build
+docsify install
+docsify init mac-setup
 echo "📖 Done building guide"
 
 git checkout gh-pages
 git pull origin gh-pages --rebase
 
-cp -R _book/* .
+cp -R mac-setup/* .
 
 echo "🌲 Cleaning untracked files from working tree.."
 git clean -fx node_modules
-git clean -fx _book
+git clean -fx mac-setup
 echo "🌲 Done cleaning untracked files"
 
 git add .
