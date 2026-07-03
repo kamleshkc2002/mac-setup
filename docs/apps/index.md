@@ -13,7 +13,7 @@ Here is a list of apps that are generally good to use and can come in handy in d
 - [Cursor](https://www.cursor.com/): An AI-powered code editor built on VS Code.
 - [Zed](https://zed.dev/): A high-performance code editor built in Rust with real-time collaboration.
 - [GitHub Desktop](https://desktop.github.com/): A GUI for Git that simplifies your development workflow.
-- [Valentina Studio](https://apps.apple.com/us/app/valentina-studio/id604825918?mt=12): Valentina Studio is a GUI to create, administer and query MySQL, Postgres and SQLite databases.
+- [Valentina Studio](https://www.valentina-db.com/en/download-valentina-studio): Valentina Studio is a GUI to create, administer and query MySQL, Postgres and SQLite databases.
 
 ## AI Tools
 
