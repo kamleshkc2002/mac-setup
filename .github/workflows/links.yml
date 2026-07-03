@@ -22,12 +22,12 @@ jobs:
           recursive: true                  # Include sub-dirs
           include-extensions: 'md'         # File types to check
 
-          timeout-seconds: 5               # Request timeout in seconds
+          timeout-seconds: 10              # Request timeout in seconds
           retry: 2                         # Number of retries
           concurrency: 10                  # Concurrent requests
 
           allow-status: '200,202,204,429'  # Allowed HTTP status codes
-          allowlist: 'http://localhost'    # Trusted domains
+          allowlist: 'http://localhost,https://www.valentina-db.com/en/download-valentina-studio,https://www.gnu.org/software/emacs/' # Trusted, protected, or flaky URLs
 
           create-annotations: true         # Show broken URLs in files
           fail-on-error: true              # Fail workflow on broken URLs

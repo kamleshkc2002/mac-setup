@@ -13,11 +13,11 @@ Here is a list of apps that are generally good to use and can come in handy in d
 - [Cursor](https://www.cursor.com/): An AI-powered code editor built on VS Code.
 - [Zed](https://zed.dev/): A high-performance code editor built in Rust with real-time collaboration.
 - [GitHub Desktop](https://desktop.github.com/): A GUI for Git that simplifies your development workflow.
-- [Valentina Studio](http://www.valentina-db.com/en/valentina-studio-overview): Valentina Studio is a GUI to create, administer and query MySQL, Postgres and SQLite databases.
+- [Valentina Studio](https://www.valentina-db.com/en/download-valentina-studio): Valentina Studio is a GUI to create, administer and query MySQL, Postgres and SQLite databases.
 
 ## AI Tools
 
-- [Claude](https://claude.ai/): Anthropic's AI assistant desktop app.
+- [Claude](https://claude.com/download): Anthropic's AI assistant desktop app.
 - [Claude Code](https://docs.anthropic.com/en/docs/claude-code): An agentic coding tool from Anthropic that lives in your terminal.
 
 ## Diff and Merge Tools
